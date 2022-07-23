@@ -40,7 +40,7 @@ function getStatusGateways($nome = '',$item){
     }
         
     if ($item=='status'){
-        if ($gateways_status[$nome][$item] == "none" ){
+        if ($gateways_status[$nome][$item] == "none" or $gateways_status[$nome][$item] == "online" ){
             return $gateways_status[$nome][$item] = 1;
         }elseif ($gateways_status[$nome][$item] == "down" ){
             return $gateways_status[$nome][$item] = 0;

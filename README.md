@@ -20,3 +20,4 @@ executar o comando abaixo
 fetch -q -o - https://raw.githubusercontent.com/lschuastz/zabbix-pfsense-gateway/master/auto-config.sh | sh
 
 
+Fonte Original: https://github.com/lndgoncalves/zabbix-pfsense-gateway
